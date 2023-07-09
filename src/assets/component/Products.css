@@ -1,0 +1,49 @@
+.products{
+    align-items: center;
+    justify-content: flex-end;
+   height: 400px;
+    width: 400px;
+     padding: 1px;
+     width: 100% ;
+   background-color:#fff;
+   transition: background 0.3 ease;
+   border-radius: 22px;   
+}
+.products:hover{
+    background-color: black;
+    color: white;
+}
+.products > img{
+    width: 100%;
+    max-height: 160px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+.products:hover img{
+    transform: scale(0.90);
+}
+.product-rating{
+    color: rgba(225,164,28);
+}
+.products button{
+ background-color: white;
+ border: 1px  solid;
+ margin-top: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ margin-left: 110px;
+ border-color:  rgba(225,164,28);
+ cursor: pointer;
+ border-radius: 13px;
+ transition:  transform 0.3s ease;
+ width: 160px;
+ height: 35px;
+ transition: transform 0.3s ease;
+
+}
+.p1{
+    font-size: 14px;
+     
+}
+.products > button:active {
+    transform: scale(0.8);
+}

@@ -1,0 +1,35 @@
+.login{
+    margin-top: 60px;
+
+    justify-content: center;
+    align-items: center ;
+    display: grid;
+}
+.login h1{
+    font-size: 40px;
+    text-align: center ;
+}
+form span{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+form input{
+    width: 300px;
+    padding: 5px;
+}
+form button{
+    width: 150px;
+    padding: 6px;
+    text-align: center;
+    border: tan;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+ margin-left: 80px;
+}
+form{
+    gap: 10px;
+    flex-direction:column;
+    display: flex;
+}

@@ -1,0 +1,19 @@
+.chekoutProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chekoutProduct img{
+   width: 260px;
+}
+.information .chekoutProduct-title {
+  font-size: 15px;
+inline-size: 550px;
+}
+.information .chekoutProduct-para{
+    color: brown;
+}
+.information .chekoutProduct-rating{
+    display: flex;
+    color: rgba(225,164,28);
+}
